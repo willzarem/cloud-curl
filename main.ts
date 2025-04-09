@@ -1,4 +1,4 @@
-const TARGET_URL = "https://example.com"; // Replace with your desired URL
+const TARGET_URL = "https://curlmyip.org/"; // Replace with your desired URL
 
 const handler = async (req: Request): Promise<Response> => {
   const { method, url } = req;
