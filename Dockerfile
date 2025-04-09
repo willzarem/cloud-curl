@@ -16,4 +16,4 @@ COPY src ./src
 EXPOSE 8080
 
 # Command to run the application
-CMD ["node", "src/index.js"]
+CMD ["node", "src/index.js",  "--host", "0.0.0.0", "--port", "8080"]
