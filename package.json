@@ -1,0 +1,14 @@
+{
+  "name": "node-http-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application that makes an HTTP call to curlmyip.org and returns the result as plain text.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
